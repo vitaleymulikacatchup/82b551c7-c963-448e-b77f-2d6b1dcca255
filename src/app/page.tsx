@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -12,7 +12,7 @@ import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { CheckCircle, Circle, Code, DollarSign, Droplets, Github, MessageSquare, Package, Share2, Sparkles, Star, TrendingUp, Users, Wind, Zap } from "lucide-react";
+import { CheckCircle, Circle, Code, DollarSign, Droplets, Github, Twitter, Dribbble, Instagram, Linkedin, MessageSquare, Package, Share2, Sparkles, Star, TrendingUp, Users, Wind, Zap } from "lucide-react";
 
 export default function Home() {
   return (
@@ -261,8 +261,8 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34Qgyh3s7JYDSgc82AIVt5yiftd/uploaded-1763472487219-fk28imcc.jpg",
               imageAlt: "Alex Bubble",
               socialLinks: [
-                { icon: "Github", url: "https://github.com" },
-                { icon: "Twitter", url: "https://twitter.com" }
+                { icon: Github, url: "https://github.com" },
+                { icon: Twitter, url: "https://twitter.com" }
               ]
             },
             {
@@ -273,8 +273,8 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34Qgyh3s7JYDSgc82AIVt5yiftd/uploaded-1763472488794-ulpo960q.jpg",
               imageAlt: "Maya Fizz",
               socialLinks: [
-                { icon: "Dribbble", url: "https://dribbble.com" },
-                { icon: "Instagram", url: "https://instagram.com" }
+                { icon: Dribbble, url: "https://dribbble.com" },
+                { icon: Instagram, url: "https://instagram.com" }
               ]
             },
             {
@@ -285,8 +285,8 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34Qgyh3s7JYDSgc82AIVt5yiftd/uploaded-1763472490349-a5tujiyy.jpg",
               imageAlt: "Sam Mentos",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com" },
-                { icon: "Twitter", url: "https://twitter.com" }
+                { icon: Linkedin, url: "https://linkedin.com" },
+                { icon: Twitter, url: "https://twitter.com" }
               ]
             }
           ]}
